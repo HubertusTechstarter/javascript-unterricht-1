@@ -46,12 +46,16 @@ console.log(x)
 
 var carDreckig = true;
 
-
-function waschanlage(carDreckig){
+function waschanlage(){
+    let carDreckig = false
+    return carDreckig
+    /*
     if(carDreckig){
         return false;
     }else{
         console.log("das auto ist schon sauber")
         return false;
-    }
+    }*/
 }
+console.log( waschanlage() );
+console.log(carDreckig)
